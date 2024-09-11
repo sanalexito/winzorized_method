@@ -2,7 +2,7 @@
 
 Este es un pequeño ejemplo de cómo hacer el winzorizado para cuando aparecen _outliers_ en los datos. Este tipo de datos también llamados atípicos pueden tener un impacto no deseado en el valor de las estimaciones. Es importante mencionar que un _outlier_ debe ser verificado para asegurarse de que en efecto es una observación de este tipo. 
 
-Winzorizado (winzorizing) es una que técnica apareció en la tesis de maestría de R. G. Clark en 1995 y remplaza los datos a partir de cierto umbral por el valor determinado por el corte. Por ejemplo, si se quiere aplicar el procedimiento al 90%, entonces se toma el 5% por abajo y el 5% por arriba y se remplazan por el valor de percentil 5 y 95, respectivamente.
+Winzorizado (winzorizing) es una que técnica que es bien revisada en la tesis de maestría de R. G. Clark en 1995 y remplaza los datos a partir de cierto umbral por el valor determinado por el corte. Por ejemplo, si se quiere aplicar el procedimiento al 90%, entonces se toma el 5% por abajo y el 5% por arriba y se remplazan por el valor de percentil 5 y 95, respectivamente.
 
 <p>
   Link al PDF:
